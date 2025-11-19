@@ -1,15 +1,891 @@
-[00:00:02.943] Server  LOG     
-[00:00:02.943] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
-[00:00:02.943] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+[00:00:01.587] Server  LOG      ✓ Ready in 1472ms
+[00:00:05.491] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:05.491] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:05.491] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763569275575}
+[00:00:07.859] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763569277945}
+[00:00:15.817] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/solutions color: rgb(120, 120, 120) color: inherit {"dp":"/solutions","o":"http://localhost:3000/solutions","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763569285849}
+[00:00:22.545] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/recruitment color: rgb(120, 120, 120) color: inherit {"dp":"/recruitment","o":"http://localhost:3000/recruitment","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763569292632}
+[00:00:27.036] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/training color: rgb(120, 120, 120) color: inherit {"dp":"/training","o":"http://localhost:3000/training","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763569297122}
+[00:00:29.779] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/career color: rgb(120, 120, 120) color: inherit {"dp":"/career","o":"http://localhost:3000/career","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763569299866}
+[00:00:35.427] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/clients color: rgb(120, 120, 120) color: inherit {"dp":"/clients","o":"http://localhost:3000/clients","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763569305513}
+[00:00:52.048] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763569322135}
+[00:03:32.756] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
 
-[00:00:02.943] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
-[00:00:02.943] Server  LOG     
-[00:00:02.943] Server  LOG        The following mandatory changes were made to your tsconfig.json:
 
-[00:00:02.943] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
-[00:00:02.943] Server  LOG     
-[00:00:03.033] Server  LOG      ✓ Ready in 2.8s
-[00:00:21.210] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:21.211] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:21.211] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763568379350}
-[00:00:24.143] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3001/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763568382282}
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.757] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.758] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.758] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.759] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.759] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.760] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.760] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.760] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.761] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.761] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.764] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.765] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.766] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.766] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.768] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.769] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.770] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.771] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.772] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.773] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.774] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.777] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.779] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.781] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.781] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.782] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.782] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.782] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.782] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.783] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.783] Server  ERROR    ⨯ ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:32.815] Server  LOG      ✓ Compiled in 132ms
+[00:03:33.059] Browser ERROR   ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:58.976] Browser ERROR   ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:56.567] Browser ERROR   ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:56.567] Browser ERROR   ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:56.935] Browser ERROR   ./Downloads/web-clone/app/page.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | 'use client'
+  2 |
+> 3 | import { motion } from 'framer-motion'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Header from '@/components/header'
+  5 | import Hero from '@/components/hero'
+  6 | import AboutSection from '@/components/about-section'
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/web-clone/app/page.tsx [Client Component Browser]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/web-clone/app/page.tsx [Client Component SSR]
+    ./Downloads/web-clone/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:57.019] Server  LOG      ✓ Compiled in 260ms
+[00:05:29.626] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:29.626] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:05:29.627] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763569599718}
+[00:24:07.089] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:24:07.089] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:24:07.089] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763570717163}
+[00:28:15.604] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763570965669}
+[00:28:16.526] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763570966591}
+[00:28:17.419] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763570967484}
+[00:31:19.695] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/solutions color: rgb(120, 120, 120) color: inherit {"dp":"/solutions","o":"http://localhost:3000/solutions","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763571149763}
