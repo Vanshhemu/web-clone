@@ -75,7 +75,7 @@ function Footer() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$clone$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-gray-400 text-sm leading-relaxed",
-                                    children: "Adore Technosoft is a leading IT solutions provider committed to delivering excellence in recruitment, training, and business solutions."
+                                    children: "Savekey Technology is a leading IT solutions provider committed to delivering excellence in recruitment, training, and business solutions."
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/clone-web/components/footer.tsx",
                                     lineNumber: 8,
@@ -271,7 +271,7 @@ function Footer() {
                                     className: "text-gray-400 text-sm space-y-2",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$clone$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            children: "📧 info@adoretechnosoft.com"
+                                            children: "📧 info@savekeytechnology.com"
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/clone-web/components/footer.tsx",
                                             lineNumber: 33,
@@ -312,7 +312,7 @@ function Footer() {
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$clone$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "border-t border-gray-800 pt-8 text-center text-gray-400 text-sm",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$clone$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        children: "© 2025 Adore Technosoft. All rights reserved. | Privacy Policy | Terms of Service"
+                        children: "© 2025 Savekey Technology. All rights reserved. | Privacy Policy | Terms of Service"
                     }, void 0, false, {
                         fileName: "[project]/Downloads/clone-web/components/footer.tsx",
                         lineNumber: 41,
@@ -392,7 +392,7 @@ function WhoWeAre() {
                     className: "mb-8",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$clone$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-blue-600 font-semibold mb-2",
+                            className: "text-brand-primary font-semibold mb-2",
                             children: "ABOUT US"
                         }, void 0, false, {
                             fileName: "[project]/Downloads/clone-web/components/who-we-are.tsx",
@@ -404,7 +404,7 @@ function WhoWeAre() {
                             children: [
                                 "Who ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$clone$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-red-600",
+                                    className: "text-brand-primary",
                                     children: "we are"
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/clone-web/components/who-we-are.tsx",
@@ -427,7 +427,7 @@ function WhoWeAre() {
                     className: "space-y-6 text-gray-700 leading-relaxed",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$clone$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            children: "Adore Technosoft is an ISO 9001:2015, ISO 27001:2022 and ISO 20000-1:2018 systems integrator committed to delivering the best IT solutions driven by the latest technology and best suited business-driven solutions to small, medium and global companies who are looking for an IT solution, skilled manpower and training."
+                            children: "Savekey Technology is an ISO 9001:2015, ISO 27001:2022 and ISO 20000-1:2018 systems integrator committed to delivering the best IT solutions driven by the latest technology and best suited business-driven solutions to small, medium and global companies who are looking for an IT solution, skilled manpower and training."
                         }, void 0, false, {
                             fileName: "[project]/Downloads/clone-web/components/who-we-are.tsx",
                             lineNumber: 13,
@@ -535,7 +535,7 @@ function VisionMissionValues() {
                                                 children: [
                                                     "Our ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$clone$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "text-red-600",
+                                                        className: "text-brand-primary",
                                                         children: "Vision"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/clone-web/components/vision-mission-values.tsx",
@@ -564,7 +564,7 @@ function VisionMissionValues() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$clone$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-gray-700 leading-relaxed",
-                                        children: "Adore Technosoft want to become the global leader in providing the best recruitment solutions, services and training in the world with excellence"
+                                        children: "Savekey Technology wants to become the global leader in providing the best recruitment solutions, services and training in the world with excellence"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/clone-web/components/vision-mission-values.tsx",
                                         lineNumber: 14,
@@ -586,7 +586,7 @@ function VisionMissionValues() {
                                                 children: [
                                                     "Our ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$clone$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "text-red-600",
+                                                        className: "text-brand-primary",
                                                         children: "Mission"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/clone-web/components/vision-mission-values.tsx",
@@ -615,7 +615,7 @@ function VisionMissionValues() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$clone$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-gray-700 leading-relaxed",
-                                        children: "Adore Technosoft want to become the global leader in providing the best recruitment solutions, services and training in the world with excellence"
+                                        children: "Savekey Technology wants to become the global leader in providing the best recruitment solutions, services and training in the world with excellence"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/clone-web/components/vision-mission-values.tsx",
                                         lineNumber: 25,
@@ -637,7 +637,7 @@ function VisionMissionValues() {
                                                 children: [
                                                     "Our ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$clone$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "text-red-600",
+                                                        className: "text-brand-primary",
                                                         children: "values"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/clone-web/components/vision-mission-values.tsx",
@@ -666,7 +666,7 @@ function VisionMissionValues() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$clone$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-gray-700 mb-4",
-                                        children: 'We "Adore"'
+                                        children: 'We "Savekey Technology"'
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/clone-web/components/vision-mission-values.tsx",
                                         lineNumber: 36,
@@ -690,7 +690,7 @@ function VisionMissionValues() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$clone$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "mt-6 bg-red-600 text-white px-6 py-2 rounded hover:bg-red-700 transition",
+                                        className: "mt-6 bg-brand-primary text-white px-6 py-2 rounded hover:bg-brand-navy transition",
                                         children: "Know More"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/clone-web/components/vision-mission-values.tsx",
@@ -788,7 +788,7 @@ function Certifications() {
                     children: [
                         "Our ",
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$clone$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "text-red-600",
+                            className: "text-brand-primary",
                             children: "Certifications"
                         }, void 0, false, {
                             fileName: "[project]/Downloads/clone-web/components/certifications.tsx",
@@ -988,8 +988,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$clone$2d$web$2f
 ;
 ;
 const metadata = {
-    title: 'About Us - Adore Technosoft',
-    description: 'Learn about Adore Technosoft, our vision, mission, and commitment to delivering IT solutions.'
+    title: 'About Us - Savekey Technology',
+    description: 'Learn about Savekey Technology, our vision, mission, and commitment to delivering IT solutions.'
 };
 function AboutPage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$clone$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {

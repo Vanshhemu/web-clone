@@ -6,8 +6,8 @@ import VisionMissionValues from '@/components/vision-mission-values'
 import Certifications from '@/components/certifications'
 
 export const metadata = {
-  title: 'About Us - Adore Technosoft',
-  description: 'Learn about Adore Technosoft, our vision, mission, and commitment to delivering IT solutions.',
+  title: 'About Us - Savekey Technology',
+  description: 'Learn about Savekey Technology, our vision, mission, and commitment to delivering IT solutions.',
 }
 
 export default function AboutPage() {

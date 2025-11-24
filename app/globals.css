@@ -4,25 +4,31 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
+  --savekey-navy: #121f3f;
+  --savekey-primary: #1d5fbf;
+  --savekey-accent: #36a7e6;
+  --savekey-light: #e9f3ff;
+  --savekey-soft: #f6f9fe;
+  --savekey-muted: #7a8bb2;
+  --background: var(--savekey-soft);
+  --foreground: #0f172a;
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+  --popover: #ffffff;
+  --popover-foreground: #0f172a;
+  --primary: var(--savekey-primary);
+  --primary-foreground: #f8fbff;
+  --secondary: var(--savekey-light);
+  --secondary-foreground: var(--savekey-navy);
+  --muted: var(--savekey-light);
+  --muted-foreground: var(--savekey-muted);
+  --accent: var(--savekey-accent);
+  --accent-foreground: #07102b;
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
+  --border: #d8e2f3;
+  --input: #d8e2f3;
+  --ring: var(--savekey-accent);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
@@ -40,25 +46,25 @@
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.145 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.145 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.985 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.396 0.141 25.723);
-  --destructive-foreground: oklch(0.637 0.237 25.331);
-  --border: oklch(0.269 0 0);
-  --input: oklch(0.269 0 0);
-  --ring: oklch(0.439 0 0);
+  --background: #050c1f;
+  --foreground: #f8fbff;
+  --card: #0d1733;
+  --card-foreground: #f8fbff;
+  --popover: #0d1733;
+  --popover-foreground: #f8fbff;
+  --primary: var(--savekey-accent);
+  --primary-foreground: #050c1f;
+  --secondary: #111b34;
+  --secondary-foreground: #f8fbff;
+  --muted: #111b34;
+  --muted-foreground: #9fb5de;
+  --accent: var(--savekey-primary);
+  --accent-foreground: #050c1f;
+  --destructive: #f87171;
+  --destructive-foreground: #050c1f;
+  --border: #1f2d50;
+  --input: #1f2d50;
+  --ring: var(--savekey-accent);
   --chart-1: oklch(0.488 0.243 264.376);
   --chart-2: oklch(0.696 0.17 162.48);
   --chart-3: oklch(0.769 0.188 70.08);
@@ -121,5 +127,56 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .text-brand-primary {
+    color: var(--savekey-primary);
+  }
+  .hover\:text-brand-primary:hover {
+    color: var(--savekey-primary);
+  }
+  .text-brand-navy {
+    color: var(--savekey-navy);
+  }
+  .text-brand-accent {
+    color: var(--savekey-accent);
+  }
+  .bg-brand-primary {
+    background-color: var(--savekey-primary);
+  }
+  .hover\:bg-brand-primary:hover {
+    background-color: var(--savekey-primary);
+  }
+  .bg-brand-navy {
+    background-color: var(--savekey-navy);
+  }
+  .hover\:bg-brand-navy:hover {
+    background-color: var(--savekey-navy);
+  }
+  .bg-brand-light {
+    background-color: var(--savekey-light);
+  }
+  .bg-brand-soft {
+    background-color: var(--savekey-soft);
+  }
+  .bg-brand-gradient {
+    background-image: linear-gradient(135deg, var(--savekey-navy), var(--savekey-primary));
+  }
+  .text-brand-soft {
+    color: #d2e7ff;
+  }
+  .border-brand-primary {
+    border-color: var(--savekey-primary);
+  }
+  .border-brand-light {
+    border-color: var(--savekey-light);
+  }
+  .focus\:border-brand-primary:focus {
+    border-color: var(--savekey-primary);
+  }
+  .shadow-brand {
+    box-shadow: 0 20px 45px rgba(18, 31, 63, 0.18);
   }
 }

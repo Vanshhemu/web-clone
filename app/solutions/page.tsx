@@ -6,7 +6,7 @@ import SoftwareDevelopment from '@/components/software-development'
 import Footer from '@/components/footer'
 
 export const metadata = {
-  title: 'Solutions - Adore Technosoft',
+  title: 'Solutions - Savekey Technology',
   description: 'Explore our ERP solutions, technology implementations, and software development services.',
 }
 

@@ -15,11 +15,11 @@ export default function TechnologySolutions() {
   ]
 
   return (
-    <section className="py-20 bg-red-600">
+    <section className="py-20 bg-brand-gradient">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {solutions.map((solution, index) => (
-            <div key={index} className="bg-red-600 text-white">
+            <div key={index} className="bg-white/10 backdrop-blur border border-white/20 rounded-xl text-white p-8 shadow-brand">
               <h3 className="text-2xl font-bold mb-6">{solution.name}</h3>
               <div className="mb-8 h-24 flex items-center justify-center">
                 <img 
@@ -31,7 +31,7 @@ export default function TechnologySolutions() {
               <p className="text-sm leading-relaxed mb-8">
                 {solution.description}
               </p>
-              <button className="bg-white text-red-600 px-6 py-2 rounded font-semibold hover:bg-gray-100 transition">
+              <button className="bg-white text-brand-primary px-6 py-2 rounded font-semibold hover:bg-brand-light transition">
                 Know More
               </button>
             </div>

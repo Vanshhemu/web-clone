@@ -5,11 +5,11 @@ export default function ProfessionalTraining() {
         <div className="grid md:grid-cols-2 gap-12 items-start">
           {/* Left side - Content */}
           <div>
-            <h2 className="text-3xl font-bold text-blue-600 mb-6">Professional Training</h2>
+            <h2 className="text-3xl font-bold text-brand-primary mb-6">Professional Training</h2>
             
             <div className="space-y-4 text-gray-700">
               <p className="leading-relaxed">
-                Adore's motive is to keep your professional network healthy for you.
+                Savekey Technology's motive is to keep your professional network healthy for you.
               </p>
 
               <p className="leading-relaxed">
@@ -25,7 +25,7 @@ export default function ProfessionalTraining() {
               </p>
 
               <p className="leading-relaxed">
-                At Adore Technosoft, our trainers do check in regularly on you and communicate your desire to help them build a long-term career. Giving high-potential team members challenging "stretch assignments" along with on-going professional development and skill-building opportunities is a winning combination for improved retention.
+                At Savekey Technology, our trainers do check in regularly on you and communicate your desire to help them build a long-term career. Giving high-potential team members challenging "stretch assignments" along with on-going professional development and skill-building opportunities is a winning combination for improved retention.
               </p>
             </div>
           </div>

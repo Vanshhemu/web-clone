@@ -72,7 +72,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$clone$2d$web$2f
 ;
 ;
 const metadata = {
-    title: 'Adore Technosoft - Global IT Solution Company',
+    title: 'Savekey Technology - Global IT Solution Company',
     description: 'ISO certified IT solutions provider with expertise in recruitment, training, and business solutions.',
     generator: 'v0.app',
     icons: {

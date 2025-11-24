@@ -6,7 +6,7 @@ export default function Footer() {
           <div>
             <h3 className="font-bold mb-4 text-lg">About</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Adore Technosoft is a leading IT solutions provider committed to delivering excellence in recruitment, training, and business solutions.
+              Savekey Technology is a leading IT solutions provider committed to delivering excellence in recruitment, training, and business solutions.
             </p>
           </div>
           <div>
@@ -30,7 +30,7 @@ export default function Footer() {
           <div>
             <h3 className="font-bold mb-4 text-lg">Contact</h3>
             <ul className="text-gray-400 text-sm space-y-2">
-              <li>📧 info@adoretechnosoft.com</li>
+              <li>📧 info@savekeytechnology.com</li>
               <li>📱 +91 (0) XXX-XXX-XXXX</li>
               <li>📍 New Delhi, India</li>
             </ul>
@@ -38,7 +38,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
-          <p>&copy; 2025 Adore Technosoft. All rights reserved. | Privacy Policy | Terms of Service</p>
+          <p>&copy; 2025 Savekey Technology. All rights reserved. | Privacy Policy | Terms of Service</p>
         </div>
       </div>
     </footer>

@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Adore Technosoft - Global IT Solution Company',
+  title: 'Savekey Technology - Global IT Solution Company',
   description: 'ISO certified IT solutions provider with expertise in recruitment, training, and business solutions.',
   generator: 'v0.app',
   icons: {

@@ -14,11 +14,11 @@ export default function CorporateTraining() {
 
           {/* Right side - Content */}
           <div>
-            <h2 className="text-3xl font-bold text-red-600 mb-6">Corporate Training</h2>
+            <h2 className="text-3xl font-bold text-brand-primary mb-6">Corporate Training</h2>
             
             <div className="space-y-4 text-gray-700">
               <p className="leading-relaxed">
-                Adore is known as one of the best corporate training company in india, specializing in HR solutions, consultation and leadership development training.
+                Savekey Technology is known as one of the best corporate training companies in India, specializing in HR solutions, consultation and leadership development training.
               </p>
 
               <p className="leading-relaxed">

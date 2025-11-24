@@ -3,15 +3,15 @@ export default function WhoWeAre() {
     <section className="py-16 px-6 bg-white">
       <div className="max-w-6xl mx-auto">
         <div className="mb-8">
-          <p className="text-blue-600 font-semibold mb-2">ABOUT US</p>
+          <p className="text-brand-primary font-semibold mb-2">ABOUT US</p>
           <h2 className="text-4xl font-bold mb-6">
-            Who <span className="text-red-600">we are</span>
+            Who <span className="text-brand-primary">we are</span>
           </h2>
         </div>
 
         <div className="space-y-6 text-gray-700 leading-relaxed">
           <p>
-            Adore Technosoft is an ISO 9001:2015, ISO 27001:2022 and ISO 20000-1:2018 systems integrator committed to delivering the best IT solutions driven by the latest technology and best suited business-driven solutions to small, medium and global companies who are looking for an IT solution, skilled manpower and training.
+            Savekey Technology is an ISO 9001:2015, ISO 27001:2022 and ISO 20000-1:2018 systems integrator committed to delivering the best IT solutions driven by the latest technology and best suited business-driven solutions to small, medium and global companies who are looking for an IT solution, skilled manpower and training.
           </p>
 
           <div>

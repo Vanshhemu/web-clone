@@ -36,7 +36,7 @@ export default function ContactForm() {
             placeholder="Name*"
             value={formData.name}
             onChange={handleChange}
-            className="border border-gray-300 rounded px-4 py-3 focus:outline-none focus:border-blue-500"
+          className="border border-gray-300 rounded px-4 py-3 focus:outline-none focus:border-brand-primary"
             required
           />
           <input
@@ -45,7 +45,7 @@ export default function ContactForm() {
             placeholder="Phone*"
             value={formData.phone}
             onChange={handleChange}
-            className="border border-gray-300 rounded px-4 py-3 focus:outline-none focus:border-blue-500"
+          className="border border-gray-300 rounded px-4 py-3 focus:outline-none focus:border-brand-primary"
             required
           />
           <input
@@ -54,7 +54,7 @@ export default function ContactForm() {
             placeholder="Email*"
             value={formData.email}
             onChange={handleChange}
-            className="border border-gray-300 rounded px-4 py-3 focus:outline-none focus:border-blue-500"
+          className="border border-gray-300 rounded px-4 py-3 focus:outline-none focus:border-brand-primary"
             required
           />
         </div>
@@ -64,12 +64,12 @@ export default function ContactForm() {
           value={formData.message}
           onChange={handleChange}
           rows={6}
-          className="w-full border border-gray-300 rounded px-4 py-3 focus:outline-none focus:border-blue-500"
+        className="w-full border border-gray-300 rounded px-4 py-3 focus:outline-none focus:border-brand-primary"
           required
         />
         <button
           type="submit"
-          className="bg-red-600 text-white px-8 py-3 rounded font-semibold hover:bg-red-700 transition"
+        className="bg-brand-primary text-white px-8 py-3 rounded font-semibold hover:bg-brand-navy transition"
         >
           Submit
         </button>

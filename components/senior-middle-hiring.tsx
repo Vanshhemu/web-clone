@@ -3,8 +3,8 @@ export default function SeniorMiddleHiring() {
     <section className="w-full py-16 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-4xl font-bold mb-12">
-          <span className="text-blue-600">Senior & Middle Level</span>
-          <span className="text-red-600"> Hiring</span>
+          <span className="text-brand-primary">Senior & Middle Level</span>
+          <span className="text-brand-navy"> Hiring</span>
         </h2>
 
         {/* Illustration and text with we're hiring background */}
@@ -51,25 +51,25 @@ export default function SeniorMiddleHiring() {
             Before finalizing a candidate for any client, we always start with a detailed understanding of what clients want and document each need with clarity.
           </p>
           <p>
-            Adore consultants shortlist the candidates, to ensure that candidates meet the comprehensive job description and the required standards for clients.
+            Savekey Technology consultants shortlist the candidates to ensure that candidates meet the comprehensive job description and the required standards for clients.
           </p>
         </div>
 
         {/* Cards section */}
         <div className="grid md:grid-cols-2 gap-6">
           {/* Card 1 */}
-          <div className="bg-blue-700 text-white p-8 rounded-lg">
+          <div className="bg-brand-navy text-white p-8 rounded-lg shadow-brand">
             <h3 className="text-2xl font-bold mb-4">Recruitment<br />Process Outsourcing</h3>
             <p className="leading-relaxed">
-              Adore's outsourcing program blends dedicated recruiters, skilled consultants, technology and best practice hiring processes to transform an organization's talent acquisition function.
+              Savekey Technology's outsourcing program blends dedicated recruiters, skilled consultants, technology and best practice hiring processes to transform an organization's talent acquisition function.
             </p>
           </div>
 
           {/* Card 2 */}
-          <div className="bg-cyan-500 text-white p-8 rounded-lg">
+          <div className="bg-brand-primary text-white p-8 rounded-lg shadow-brand">
             <h3 className="text-2xl font-bold mb-4">Global<br />Sourcing</h3>
             <p className="leading-relaxed">
-              Outsourcing is now no longer just a short term quick-fix to achieve cost reduction. At Adore Technosoft, outsourcing uses a blend of onsite, offshore and nearshore outsourcing solutions to attain strategic business goals for the outsourcing company.
+              Outsourcing is now no longer just a short term quick-fix to achieve cost reduction. At Savekey Technology, outsourcing uses a blend of onsite, offshore and nearshore outsourcing solutions to attain strategic business goals for the outsourcing company.
             </p>
           </div>
         </div>

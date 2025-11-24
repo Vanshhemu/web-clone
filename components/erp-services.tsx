@@ -18,11 +18,11 @@ export default function ERPServices() {
 
           {/* Right side - ERP Details */}
           <div>
-            <h3 className="text-4xl font-bold text-red-600 mb-6">ERP Services</h3>
+            <h3 className="text-4xl font-bold text-brand-primary mb-6">ERP Services</h3>
             <p className="text-gray-700 text-lg leading-relaxed mb-8">
               Successful ERP implementation balances effectively on the automation and transformation processes within unique business systems, requirements, abilities, process, and a robust organizational structure. To ensure operations, ERP support and maintenance is mandatory; hence our professional team conduct training and provide updates and maintenance services to keep your ERP system implementation running without any concerns.
             </p>
-            <button className="bg-red-600 text-white px-8 py-3 rounded font-semibold hover:bg-red-700 transition">
+            <button className="bg-brand-primary text-white px-8 py-3 rounded font-semibold hover:bg-brand-navy transition">
               Know More
             </button>
           </div>

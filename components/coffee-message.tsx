@@ -10,10 +10,10 @@ export default function CoffeeMessage() {
 
         {/* Coffee images section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="rounded-lg overflow-hidden shadow-lg h-64 bg-gradient-to-br from-blue-200 to-cyan-200 flex items-center justify-center">
+          <div className="rounded-lg overflow-hidden shadow-brand h-64 bg-brand-gradient flex items-center justify-center text-white">
             <div className="text-6xl">☕</div>
           </div>
-          <div className="rounded-lg overflow-hidden shadow-lg h-64 bg-gradient-to-br from-cyan-200 to-blue-200 flex items-center justify-center">
+          <div className="rounded-lg overflow-hidden shadow-lg h-64 bg-brand-light flex items-center justify-center">
             <div className="text-6xl">👥</div>
           </div>
         </div>
@@ -23,7 +23,7 @@ export default function CoffeeMessage() {
           <p className="text-gray-600 text-lg mb-6">
             Visit our office and discuss your career opportunities over coffee with our team.
           </p>
-          <button className="bg-red-600 text-white px-8 py-3 rounded hover:bg-red-700 transition text-lg">
+          <button className="bg-brand-primary text-white px-8 py-3 rounded hover:bg-brand-navy transition text-lg">
             Schedule a Visit
           </button>
         </div>

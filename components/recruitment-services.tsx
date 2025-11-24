@@ -5,7 +5,7 @@ export default function RecruitmentServices() {
         <div className="grid md:grid-cols-2 gap-8">
           {/* Service 1 */}
           <div className="flex gap-6">
-            <div className="flex-shrink-0 w-20 h-20 bg-blue-100 rounded-lg flex items-center justify-center">
+            <div className="flex-shrink-0 w-20 h-20 bg-brand-light rounded-lg flex items-center justify-center">
               <img
                 src="/professional-search-icon.jpg"
                 alt="Professional search"
@@ -13,7 +13,7 @@ export default function RecruitmentServices() {
               />
             </div>
             <div>
-              <h3 className="text-xl font-bold text-blue-600 mb-2">Executive Search</h3>
+              <h3 className="text-xl font-bold text-brand-primary mb-2">Executive Search</h3>
               <p className="text-gray-700">
                 Senior management and CxO level recruitment for strategic business roles requiring specialized industry experience.
               </p>
@@ -22,7 +22,7 @@ export default function RecruitmentServices() {
 
           {/* Service 2 */}
           <div className="flex gap-6">
-            <div className="flex-shrink-0 w-20 h-20 bg-cyan-100 rounded-lg flex items-center justify-center">
+            <div className="flex-shrink-0 w-20 h-20 bg-brand-light rounded-lg flex items-center justify-center">
               <img
                 src="/team-hiring-icon.jpg"
                 alt="Team hiring"
@@ -30,7 +30,7 @@ export default function RecruitmentServices() {
               />
             </div>
             <div>
-              <h3 className="text-xl font-bold text-cyan-600 mb-2">Team Recruitment</h3>
+              <h3 className="text-xl font-bold text-brand-accent mb-2">Team Recruitment</h3>
               <p className="text-gray-700">
                 Build and scale teams efficiently with our specialized recruitment process for mid-level and senior talent acquisition.
               </p>
@@ -39,7 +39,7 @@ export default function RecruitmentServices() {
 
           {/* Service 3 */}
           <div className="flex gap-6">
-            <div className="flex-shrink-0 w-20 h-20 bg-red-100 rounded-lg flex items-center justify-center">
+            <div className="flex-shrink-0 w-20 h-20 bg-brand-light rounded-lg flex items-center justify-center">
               <img
                 src="/contract-icon.jpg"
                 alt="Contract staffing"
@@ -47,7 +47,7 @@ export default function RecruitmentServices() {
               />
             </div>
             <div>
-              <h3 className="text-xl font-bold text-red-600 mb-2">Contract Staffing</h3>
+              <h3 className="text-xl font-bold text-brand-primary mb-2">Contract Staffing</h3>
               <p className="text-gray-700">
                 Flexible staffing solutions for temporary and contract positions across various departments and skill levels.
               </p>

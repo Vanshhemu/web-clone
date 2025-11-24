@@ -5,7 +5,7 @@ export default function CareersContent() {
         {/* Section Title with background text */}
         <div className="relative mb-12">
           <div className="text-center">
-            <h2 className="text-5xl font-bold text-blue-600 mb-8">CAREERS</h2>
+            <h2 className="text-5xl font-bold text-brand-primary mb-8">CAREERS</h2>
           </div>
         </div>
 
@@ -20,11 +20,11 @@ export default function CareersContent() {
         </div>
 
         {/* Call to action section */}
-        <div className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-lg p-12 text-center mb-12 border border-blue-200">
+        <div className="bg-brand-light rounded-lg p-12 text-center mb-12 border border-brand-light">
           <h3 className="text-3xl font-bold text-gray-800 mb-3">
             Become a part of our big family to inspire and get inspired by
           </h3>
-          <p className="text-2xl font-bold text-cyan-500 mb-8">
+          <p className="text-2xl font-bold text-brand-accent mb-8">
             Professional Experts.
           </p>
         </div>

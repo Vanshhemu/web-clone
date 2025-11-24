@@ -24,7 +24,7 @@ export default function ClientsList() {
         </p>
 
         {/* Clients logos grid */}
-        <div className="bg-cyan-400 p-8 rounded-lg flex flex-wrap justify-center gap-6 items-center">
+        <div className="bg-brand-gradient p-8 rounded-lg flex flex-wrap justify-center gap-6 items-center shadow-brand text-white">
           {clients.map((client, index) => (
             <div key={index} className="bg-white p-4 rounded flex items-center justify-center h-20">
               <img 

@@ -5,14 +5,14 @@ export default function ExecutiveSearch() {
         <div className="flex gap-12 items-center">
           {/* Left side with text */}
           <div className="flex-1">
-            <p className="text-blue-600 font-semibold text-sm mb-2">Recruitment</p>
+            <p className="text-brand-primary font-semibold text-sm mb-2">Recruitment</p>
             <h2 className="text-4xl font-bold mb-6">
-              <span className="text-blue-600">Executive</span>
+              <span className="text-brand-primary">Executive</span>
               <span className="text-gray-900"> Search</span>
             </h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                As the name suggests here, Adore conduct recruitment processes for highly qualified candidate's top-level jobs which can be Vice President, CEO, MD and Director in the public and private sectors, as well as not-for-profit organizations.
+                As the name suggests here, Savekey Technology conducts recruitment processes for highly qualified candidate's top-level jobs which can be Vice President, CEO, MD and Director in the public and private sectors, as well as not-for-profit organizations.
               </p>
               <p>
                 We make sure our experts interact and understand the strategic brand vision, mission, goals, personality traits which the new executive-level person has to comply.

@@ -2,7 +2,7 @@ export default function RecruitmentTraining() {
   return (
     <section className="w-full py-16 px-6 bg-white">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-blue-600 mb-6">RECRUITMENT TRAINING PROGRAMMES</h2>
+        <h2 className="text-3xl font-bold text-brand-primary mb-6">RECRUITMENT TRAINING PROGRAMMES</h2>
         
         <div className="mb-8 space-y-4">
           <p className="text-gray-700 leading-relaxed">

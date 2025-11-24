@@ -28,7 +28,7 @@ export default function ServicesSection() {
           {services.map((service, index) => (
             <div key={index} className="flex flex-col items-center text-center">
               <div className="mb-6">{service.icon}</div>
-              <button className="bg-red-600 text-white px-8 py-3 rounded font-semibold mb-4 hover:bg-red-700 transition">
+              <button className="bg-brand-primary text-white px-8 py-3 rounded font-semibold mb-4 hover:bg-brand-navy transition">
                 {service.title}
               </button>
               <p className="text-gray-600">{service.description}</p>

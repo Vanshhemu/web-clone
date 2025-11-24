@@ -3,22 +3,22 @@ import { Briefcase, Target, Zap } from 'lucide-react'
 export default function WhyChooseUsSection() {
   const reasons = [
     {
-      icon: <Briefcase size={40} className="text-red-600 mb-3" />,
+      icon: <Briefcase size={40} className="text-brand-primary mb-3" />,
       title: 'Executive Search',
       description: 'We will provide you with top-level Executive Search & selection services in a short period of the best outcomes.'
     },
     {
-      icon: <Target size={40} className="text-red-600 mb-3" />,
+      icon: <Target size={40} className="text-brand-primary mb-3" />,
       title: 'Head Hunting',
       description: 'Our experts will ensure you suitable candidates for niche skills companies.'
     },
     {
-      icon: <Zap size={40} className="text-red-600 mb-3" />,
+      icon: <Zap size={40} className="text-brand-primary mb-3" />,
       title: 'Sound strategies',
       description: 'Strategic planning for long-term business success'
     },
     {
-      icon: <Briefcase size={40} className="text-red-600 mb-3" />,
+      icon: <Briefcase size={40} className="text-brand-primary mb-3" />,
       title: 'Highly skilled',
       description: 'Our highly experience to the table and recruitment at all levels.'
     }
@@ -28,9 +28,9 @@ export default function WhyChooseUsSection() {
     <section className="py-16 md:py-24 px-6 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="mb-12">
-          <p className="text-red-600 font-semibold mb-2">WHY US</p>
+          <p className="text-brand-primary font-semibold mb-2">WHY US</p>
           <h2 className="text-4xl font-bold">
-            Why <span className="text-red-600">Choose Us</span>
+            Why <span className="text-brand-primary">Choose Us</span>
           </h2>
         </div>
 

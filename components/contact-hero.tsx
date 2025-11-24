@@ -22,16 +22,16 @@ export default function ContactHero() {
 
       {/* Colorful contact icons */}
       <div className="absolute inset-0 flex items-center justify-center gap-8">
-        <div className="w-20 h-20 bg-pink-500 rounded-lg flex items-center justify-center shadow-lg transform -rotate-12 hover:rotate-0 transition">
+        <div className="w-20 h-20 bg-brand-primary rounded-lg flex items-center justify-center shadow-lg transform -rotate-12 hover:rotate-0 transition text-white">
           <span className="text-3xl">📞</span>
         </div>
-        <div className="w-20 h-20 bg-green-500 rounded-lg flex items-center justify-center shadow-lg">
+        <div className="w-20 h-20 bg-brand-light rounded-lg flex items-center justify-center shadow-lg">
           <span className="text-3xl">📱</span>
         </div>
-        <div className="w-20 h-20 bg-blue-500 rounded-lg flex items-center justify-center shadow-lg transform rotate-12 hover:rotate-0 transition">
+        <div className="w-20 h-20 bg-brand-navy rounded-lg flex items-center justify-center shadow-lg transform rotate-12 hover:rotate-0 transition text-white">
           <span className="text-3xl">✉️</span>
         </div>
-        <div className="w-20 h-20 bg-orange-500 rounded-lg flex items-center justify-center shadow-lg">
+        <div className="w-20 h-20 bg-brand-accent rounded-lg flex items-center justify-center shadow-lg text-white">
           <span className="text-3xl">📧</span>
         </div>
       </div>

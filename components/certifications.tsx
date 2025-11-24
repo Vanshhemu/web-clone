@@ -3,7 +3,7 @@ export default function Certifications() {
     <section className="py-16 px-6 bg-white">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold mb-12">
-          Our <span className="text-red-600">Certifications</span>
+          Our <span className="text-brand-primary">Certifications</span>
         </h2>
 
         <div className="flex justify-center items-center gap-12 flex-wrap">

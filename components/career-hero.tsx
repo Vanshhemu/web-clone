@@ -1,6 +1,6 @@
 export default function CareerHero() {
   return (
-    <div className="relative w-full h-96 bg-gradient-to-r from-blue-400 to-blue-600 flex items-center justify-center overflow-hidden">
+    <div className="relative w-full h-96 bg-brand-gradient flex items-center justify-center overflow-hidden">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-20">
         <svg className="w-full h-full" viewBox="0 0 1200 400">

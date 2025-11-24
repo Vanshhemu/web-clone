@@ -11,7 +11,7 @@ export default function ReviewsSection() {
   ]
 
   return (
-    <section className="py-16 px-6 bg-cyan-400">
+    <section className="py-16 px-6 bg-brand-gradient">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-5xl font-bold text-white text-center mb-12">
           REVIEWS AND FEEDBACKS
@@ -19,9 +19,9 @@ export default function ReviewsSection() {
 
         <div className="space-y-6">
           {reviews.map((review, index) => (
-            <div key={index} className="bg-white p-6 rounded">
-              <p className="text-cyan-400 text-xl font-serif mb-4">"{review.text}"</p>
-              <p className="text-cyan-400 font-semibold text-lg">{review.author}</p>
+            <div key={index} className="bg-white p-6 rounded shadow-brand">
+              <p className="text-brand-primary text-xl font-serif mb-4">"{review.text}"</p>
+              <p className="text-brand-accent font-semibold text-lg">{review.author}</p>
             </div>
           ))}
         </div>

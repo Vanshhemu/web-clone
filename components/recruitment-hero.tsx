@@ -21,13 +21,13 @@ export default function RecruitmentHero() {
           <div className="flex-1">
             <div className="flex flex-col gap-2">
               <div className="flex items-center gap-2">
-                <div className="w-12 h-12 rounded-full border-4 border-red-600 flex items-center justify-center">
-                  <div className="w-6 h-6 rounded-full bg-red-600"></div>
+                <div className="w-12 h-12 rounded-full border-4 border-brand-primary flex items-center justify-center">
+                  <div className="w-6 h-6 rounded-full bg-brand-primary"></div>
                 </div>
                 <h1 className="text-5xl font-bold">
                   <span className="text-gray-900">Your Job</span>
                   <br />
-                  <span className="text-cyan-500">Search</span>
+                  <span className="text-brand-accent">Search</span>
                 </h1>
               </div>
               <h2 className="text-5xl font-bold text-gray-900 ml-16">Ends Here</h2>
