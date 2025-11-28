@@ -5,17 +5,22 @@ export default function CareersContent() {
         {/* Section Title with background text */}
         <div className="relative mb-8 sm:mb-10 md:mb-12">
           <div className="text-center">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-brand-primary mb-6 sm:mb-8">CAREERS</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-brand-primary mb-6 sm:mb-8">
+              CAREERS
+            </h2>
           </div>
         </div>
 
         {/* Main content */}
         <div className="mb-8 sm:mb-10 md:mb-12">
           <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed mb-4 sm:mb-6">
-            We are known for our best work environment, friendly staff, positive attitude, and continuous learning is our mantra. We help you build your career growth with our expertise and your hands-on experiences.
+            We are known for our best work environment, friendly staff, positive
+            attitude, and continuous learning is our mantra. We help you build
+            your career growth with our expertise and your hands-on experiences.
           </p>
           <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed mb-6 sm:mb-8">
-            Join us today, and we will be happy to take you on the next step in your professional life.
+            Join us today, and we will be happy to take you on the next step in
+            your professional life.
           </p>
         </div>
 
@@ -30,5 +35,5 @@ export default function CareersContent() {
         </div>
       </div>
     </div>
-  )
+  );
 }

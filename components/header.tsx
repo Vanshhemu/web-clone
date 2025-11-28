@@ -1,16 +1,16 @@
-'use client'
-import { useState, useEffect } from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
-import { Menu, X } from 'lucide-react'
+"use client";
+import { useState, useEffect } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { Menu, X } from "lucide-react";
 
 export default function Header() {
-  const [isOpen, setIsOpen] = useState(false)
-  const [mounted, setMounted] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true)
-  }, [])
+    setMounted(true);
+  }, []);
 
   return (
     <header className="w-full bg-white shadow-sm">
@@ -18,13 +18,32 @@ export default function Header() {
       <div className="bg-blue-50 border-b border-blue-100 px-4 sm:px-6 py-2 sm:py-3 text-sm">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex flex-wrap items-center gap-3 sm:gap-6">
-            <span className="text-blue-600">🏠 Welcome to Savekey Technology</span>
-            <span className="text-gray-600 hidden sm:inline">📧 info@savekeytechnology.com</span>
+            <span className="text-blue-600">
+              🏠 Welcome to Savekey Technology
+            </span>
+            <span className="text-gray-600 hidden sm:inline">
+              📧 info@savekeytechnology.com
+            </span>
           </div>
           <div className="flex gap-4">
-            <a href="#" className="text-blue-600 hover:text-blue-800 transition-colors">f</a>
-            <a href="#" className="text-blue-600 hover:text-blue-800 transition-colors">𝕏</a>
-            <a href="#" className="text-blue-600 hover:text-blue-800 transition-colors">in</a>
+            <a
+              href="#"
+              className="text-blue-600 hover:text-blue-800 transition-colors"
+            >
+              f
+            </a>
+            <a
+              href="#"
+              className="text-blue-600 hover:text-blue-800 transition-colors"
+            >
+              𝕏
+            </a>
+            <a
+              href="#"
+              className="text-blue-600 hover:text-blue-800 transition-colors"
+            >
+              in
+            </a>
           </div>
         </div>
       </div>
@@ -45,14 +64,54 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex gap-6 xl:gap-8 items-center text-gray-700 text-sm xl:text-base">
-            <Link href="/" className="hover:text-blue-600 transition whitespace-nowrap">Home</Link>
-            <Link href="/about" className="hover:text-blue-600 transition whitespace-nowrap">About Us</Link>
-            <Link href="/solutions" className="hover:text-blue-600 transition whitespace-nowrap">Solutions</Link>
-            <Link href="/recruitment" className="hover:text-blue-600 transition whitespace-nowrap">Recruitment</Link>
-            <Link href="/training" className="hover:text-blue-600 transition whitespace-nowrap">Training</Link>
-            <Link href="/career" className="hover:text-blue-600 transition whitespace-nowrap">Career</Link>
-            <Link href="/clients" className="hover:text-blue-600 transition whitespace-nowrap">Clients</Link>
-            <Link href="/contact" className="hover:text-blue-600 transition whitespace-nowrap">Contact Us</Link>
+            <Link
+              href="/"
+              className="hover:text-blue-600 transition whitespace-nowrap"
+            >
+              Home
+            </Link>
+            <Link
+              href="/about"
+              className="hover:text-blue-600 transition whitespace-nowrap"
+            >
+              About Us
+            </Link>
+            <Link
+              href="/solutions"
+              className="hover:text-blue-600 transition whitespace-nowrap"
+            >
+              Solutions
+            </Link>
+            <Link
+              href="/recruitment"
+              className="hover:text-blue-600 transition whitespace-nowrap"
+            >
+              Recruitment
+            </Link>
+            <Link
+              href="/training"
+              className="hover:text-blue-600 transition whitespace-nowrap"
+            >
+              Training
+            </Link>
+            <Link
+              href="/career"
+              className="hover:text-blue-600 transition whitespace-nowrap"
+            >
+              Career
+            </Link>
+            <Link
+              href="/clients"
+              className="hover:text-blue-600 transition whitespace-nowrap"
+            >
+              Clients
+            </Link>
+            <Link
+              href="/contact"
+              className="hover:text-blue-600 transition whitespace-nowrap"
+            >
+              Contact Us
+            </Link>
             <button className="bg-blue-600 text-white px-4 xl:px-6 py-2 rounded hover:bg-blue-800 transition whitespace-nowrap text-sm xl:text-base">
               Get in Touch
             </button>
@@ -60,8 +119,8 @@ export default function Header() {
 
           {/* Mobile menu button */}
           {mounted && (
-            <button 
-              onClick={() => setIsOpen(!isOpen)} 
+            <button
+              onClick={() => setIsOpen(!isOpen)}
               className="lg:hidden p-2 hover:bg-gray-100 rounded transition"
               aria-label="Toggle menu"
             >
@@ -73,57 +132,57 @@ export default function Header() {
         {/* Mobile Navigation */}
         {mounted && isOpen && (
           <nav className="lg:hidden flex flex-col gap-3 sm:gap-4 mt-4 pb-4 border-t pt-4">
-            <Link 
-              href="/" 
+            <Link
+              href="/"
               className="hover:text-blue-600 transition py-2 px-2 hover:bg-blue-50 rounded"
               onClick={() => setIsOpen(false)}
             >
               Home
             </Link>
-            <Link 
-              href="/about" 
+            <Link
+              href="/about"
               className="hover:text-blue-600 transition py-2 px-2 hover:bg-blue-50 rounded"
               onClick={() => setIsOpen(false)}
             >
               About Us
             </Link>
-            <Link 
-              href="/solutions" 
+            <Link
+              href="/solutions"
               className="hover:text-blue-600 transition py-2 px-2 hover:bg-blue-50 rounded"
               onClick={() => setIsOpen(false)}
             >
               Solutions
             </Link>
-            <Link 
-              href="/recruitment" 
+            <Link
+              href="/recruitment"
               className="hover:text-blue-600 transition py-2 px-2 hover:bg-blue-50 rounded"
               onClick={() => setIsOpen(false)}
             >
               Recruitment
             </Link>
-            <Link 
-              href="/training" 
+            <Link
+              href="/training"
               className="hover:text-blue-600 transition py-2 px-2 hover:bg-blue-50 rounded"
               onClick={() => setIsOpen(false)}
             >
               Training
             </Link>
-            <Link 
-              href="/career" 
+            <Link
+              href="/career"
               className="hover:text-blue-600 transition py-2 px-2 hover:bg-blue-50 rounded"
               onClick={() => setIsOpen(false)}
             >
               Career
             </Link>
-            <Link 
-              href="/clients" 
+            <Link
+              href="/clients"
               className="hover:text-blue-600 transition py-2 px-2 hover:bg-blue-50 rounded"
               onClick={() => setIsOpen(false)}
             >
               Clients
             </Link>
-            <Link 
-              href="/contact" 
+            <Link
+              href="/contact"
               className="hover:text-blue-600 transition py-2 px-2 hover:bg-blue-50 rounded"
               onClick={() => setIsOpen(false)}
             >
@@ -136,5 +195,5 @@ export default function Header() {
         )}
       </div>
     </header>
-  )
+  );
 }

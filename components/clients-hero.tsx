@@ -16,61 +16,61 @@ export default function ClientsHero() {
       <div className="relative z-10 text-center px-3 w-full">
         <div className="flex items-center justify-center gap-0 sm:gap-0.5 md:gap-1 flex-wrap leading-none">
           <span
-            className="text-2xl xs:text-2.5xl sm:text-4xl md:text-5xl lg:text-7xl font-black"
+            className="text-xl sm:text-3xl md:text-5xl lg:text-7xl font-black"
             style={{ color: "#FF6B6B" }}
           >
             O
           </span>
           <span
-            className="text-2xl xs:text-2.5xl sm:text-4xl md:text-5xl lg:text-7xl font-black"
+            className="text-xl sm:text-3xl md:text-5xl lg:text-7xl font-black"
             style={{ color: "#E8E8E8" }}
           >
             U
           </span>
           <span
-            className="text-2xl xs:text-2.5xl sm:text-4xl md:text-5xl lg:text-7xl font-black"
+            className="text-xl sm:text-3xl md:text-5xl lg:text-7xl font-black"
             style={{ color: "#FFA500" }}
           >
             R
           </span>
           <span
-            className="text-2xl xs:text-2.5xl sm:text-4xl md:text-5xl lg:text-7xl font-black"
+            className="text-xl sm:text-3xl md:text-5xl lg:text-7xl font-black"
             style={{ color: "#4ECDC4" }}
           >
             C
           </span>
           <span
-            className="text-2xl xs:text-2.5xl sm:text-4xl md:text-5xl lg:text-7xl font-black"
+            className="text-xl sm:text-3xl md:text-5xl lg:text-7xl font-black"
             style={{ color: "#5E72E4" }}
           >
             L
           </span>
           <span
-            className="text-2xl xs:text-2.5xl sm:text-4xl md:text-5xl lg:text-7xl font-black"
+            className="text-xl sm:text-3xl md:text-5xl lg:text-7xl font-black"
             style={{ color: "#7B68EE" }}
           >
             I
           </span>
           <span
-            className="text-2xl xs:text-2.5xl sm:text-4xl md:text-5xl lg:text-7xl font-black"
+            className="text-xl sm:text-3xl md:text-5xl lg:text-7xl font-black"
             style={{ color: "#FF6B6B" }}
           >
             E
           </span>
           <span
-            className="text-2xl xs:text-2.5xl sm:text-4xl md:text-5xl lg:text-7xl font-black"
+            className="text-xl sm:text-3xl md:text-5xl lg:text-7xl font-black"
             style={{ color: "#FF6B6B" }}
           >
             N
           </span>
           <span
-            className="text-2xl xs:text-2.5xl sm:text-4xl md:text-5xl lg:text-7xl font-black"
+            className="text-xl sm:text-3xl md:text-5xl lg:text-7xl font-black"
             style={{ color: "#FF6B6B" }}
           >
             T
           </span>
           <span
-            className="text-2xl xs:text-2.5xl sm:text-4xl md:text-5xl lg:text-7xl font-black"
+            className="text-xl sm:text-3xl md:text-5xl lg:text-7xl font-black"
             style={{ color: "#FF6B6B" }}
           >
             S

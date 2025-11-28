@@ -1,23 +1,23 @@
-'use client'
+"use client";
 
-import { Suspense } from 'react'
-import { motion } from 'framer-motion'
-import Header from '@/components/header'
-import Hero from '@/components/hero'
-import AboutSection from '@/components/about-section'
-import ServicesSection from '@/components/services-section'
-import WhyChooseUsSection from '@/components/why-choose-us-section'
-import Footer from '@/components/footer'
+import { Suspense } from "react";
+import { motion } from "framer-motion";
+import Header from "@/components/header";
+import Hero from "@/components/hero";
+import AboutSection from "@/components/about-section";
+import ServicesSection from "@/components/services-section";
+import WhyChooseUsSection from "@/components/why-choose-us-section";
+import Footer from "@/components/footer";
 
 // Animation variants
 const fadeInUp = {
   hidden: { opacity: 0, y: 60 },
-  visible: { 
-    opacity: 1, 
+  visible: {
+    opacity: 1,
     y: 0,
-    transition: { duration: 0.6, ease: 'easeOut' }
-  }
-}
+    transition: { duration: 0.6, ease: "easeOut" },
+  },
+};
 
 const staggerContainer = {
   hidden: { opacity: 0 },
@@ -25,10 +25,10 @@ const staggerContainer = {
     opacity: 1,
     transition: {
       staggerChildren: 0.2,
-      delayChildren: 0.1
-    }
-  }
-}
+      delayChildren: 0.1,
+    },
+  },
+};
 
 export default function Home() {
   return (
@@ -36,17 +36,14 @@ export default function Home() {
       <Suspense fallback={null}>
         <Header />
       </Suspense>
-      
+
       <motion.div
         initial="hidden"
         animate="visible"
         variants={staggerContainer}
       >
         {/* Hero Section - Immediate visibility */}
-        <motion.div
-          variants={fadeInUp}
-          className="relative"
-        >
+        <motion.div variants={fadeInUp} className="relative">
           <Hero />
         </motion.div>
 
@@ -94,5 +91,5 @@ export default function Home() {
         </motion.div>
       </motion.div>
     </main>
-  )
+  );
 }
