@@ -76,20 +76,7 @@ const metadata = {
     description: "ISO certified IT solutions provider with expertise in recruitment, training, and business solutions.",
     generator: "v0.app",
     icons: {
-        icon: [
-            {
-                url: "/icon-light-32x32.png",
-                media: "(prefers-color-scheme: light)"
-            },
-            {
-                url: "/icon-dark-32x32.png",
-                media: "(prefers-color-scheme: dark)"
-            },
-            {
-                url: "/icon.svg",
-                type: "image/svg+xml"
-            }
-        ],
+        icon: "/savekey.png",
         apple: "/apple-icon.png"
     }
 };
@@ -103,18 +90,18 @@ function RootLayout({ children }) {
                 children,
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$clone$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$clone$2d$web$2f$node_modules$2f40$vercel$2f$analytics$2f$dist$2f$next$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Analytics"], {}, void 0, false, {
                     fileName: "[project]/Downloads/clone-web/app/layout.tsx",
-                    lineNumber: 42,
+                    lineNumber: 29,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/Downloads/clone-web/app/layout.tsx",
-            lineNumber: 40,
+            lineNumber: 27,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Downloads/clone-web/app/layout.tsx",
-        lineNumber: 39,
+        lineNumber: 26,
         columnNumber: 5
     }, this);
 }

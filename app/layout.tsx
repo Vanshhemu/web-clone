@@ -12,20 +12,7 @@ export const metadata: Metadata = {
     "ISO certified IT solutions provider with expertise in recruitment, training, and business solutions.",
   generator: "v0.app",
   icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
+    icon: "/savekey.png",
     apple: "/apple-icon.png",
   },
 };
