@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <h3 className="font-bold mb-4 text-lg">About</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Savekey Technology is a leading IT solutions provider committed to
+              enstoppesolutions is a leading IT solutions provider committed to
               delivering excellence in recruitment, training, and business
               solutions.
             </p>
@@ -84,7 +84,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
           <p>
-            &copy; 2025 Savekey Technology. All rights reserved. | Privacy
+            &copy; 2025 enstoppesolutions. All rights reserved. | Privacy
             Policy | Terms of Service
           </p>
         </div>
