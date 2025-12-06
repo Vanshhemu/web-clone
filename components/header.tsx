@@ -54,7 +54,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center gap-2 sm:gap-3">
             <Image
-              src="/savekey.png"
+              src="/together.png"
               width={80}
               height={80}
               className="w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20 rounded-full object-contain"
@@ -94,9 +94,6 @@ export default function Header() {
             >
               Contact Us
             </Link>
-            <button className="bg-blue-600 text-white px-4 xl:px-6 py-2 rounded hover:bg-blue-800 transition whitespace-nowrap text-sm xl:text-base">
-              Get in Touch
-            </button>
           </nav>
 
           {/* Mobile menu button */}
@@ -149,9 +146,6 @@ export default function Header() {
             >
               Contact Us
             </Link>
-            <button className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-800 transition w-full text-left">
-              Get in Touch
-            </button>
           </nav>
         )}
       </div>

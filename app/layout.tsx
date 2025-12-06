@@ -7,12 +7,12 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Savekey Technology - Global IT Solution Company",
+  title: "enstoppesolutions",
   description:
     "ISO certified IT solutions provider with expertise in recruitment, training, and business solutions.",
   generator: "v0.app",
   icons: {
-    icon: "/savekey.png",
+    icon: "/together.png",
     apple: "/apple-icon.png",
   },
 };
