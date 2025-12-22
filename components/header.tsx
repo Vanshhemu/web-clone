@@ -22,7 +22,7 @@ export default function Header() {
               🏠 Welcome to enstoppesolutions
             </span>
             <span className="text-gray-600 hidden sm:inline">
-              📧 info@savekeytechnology.com
+              📧 info@enstoppesolutions.com
             </span>
           </div>
           <div className="flex gap-4">

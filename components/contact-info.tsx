@@ -26,7 +26,7 @@ export default function ContactInfo() {
         <div className="bg-brand-light p-6 rounded-lg border-l-4 border-brand-primary">
           <h3 className="text-xl font-bold mb-3">REACH OUT NOW!</h3>
           <p className="text-brand-primary font-bold text-lg mb-4">+91 7503737616</p>
-          <p className="text-gray-700 mb-2"><strong>For Sales:</strong> sales@savekeytechnology.com</p>
+          <p className="text-gray-700 mb-2"><strong>Email:</strong> info@enstoppesolutions.com</p>
         </div>
       </div>
     </div>
