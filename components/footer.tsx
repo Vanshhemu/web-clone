@@ -75,7 +75,7 @@ export default function Footer() {
           <div>
             <h3 className="font-bold mb-4 text-lg">Contact</h3>
             <ul className="text-gray-400 text-sm space-y-2">
-              <li>📧 info@savekeytechnology.com</li>
+              <li>📧 info@enstoppesolutions.com</li>
               <li>📱 +91 7503737616</li>
               <li>📍 New Delhi, India</li>
             </ul>
