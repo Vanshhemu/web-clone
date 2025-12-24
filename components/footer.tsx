@@ -77,7 +77,7 @@ export default function Footer() {
             <ul className="text-gray-400 text-sm space-y-2">
               <li>📧 info@enstoppesolutions.com</li>
               <li>📱 +91 7503737616</li>
-              <li>📍 New Delhi, India</li>
+              <li>📍 Plot No 33, Block P, Building No. 3275, Ground Floor, Beadon Pura, Gali Number 27, Karol Bagh, New Delhi, Central Delhi, Delhi - 110005</li>
             </ul>
           </div>
         </div>
