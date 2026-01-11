@@ -13,6 +13,10 @@ import {
   Shield,
   X,
   ShoppingCart,
+  Printer,
+  TrendingUp,
+  Globe,
+  Calendar,
 } from "lucide-react";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
@@ -620,6 +624,374 @@ const PRODUCT_DATA = {
       specs: "Neoprene, 15.6 inch Compatible",
     },
   ],
+  laptopRental: [
+    {
+      id: 1,
+      name: "Dell Latitude 5520 - Monthly",
+      price: 3999,
+      image:
+        "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&h=500&fit=crop",
+      brand: "Dell",
+      specs: "i5 11th Gen, 8GB RAM, 256GB SSD",
+    },
+    {
+      id: 2,
+      name: "HP EliteBook 840 - Monthly",
+      price: 4499,
+      image:
+        "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?w=500&h=500&fit=crop",
+      brand: "HP",
+      specs: "i5 11th Gen, 16GB RAM, 512GB SSD",
+    },
+    {
+      id: 3,
+      name: "Lenovo ThinkPad T14 - Monthly",
+      price: 4299,
+      image:
+        "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?w=500&h=500&fit=crop",
+      brand: "Lenovo",
+      specs: "i7 11th Gen, 16GB RAM, 512GB SSD",
+    },
+    {
+      id: 4,
+      name: "MacBook Air M1 - Monthly",
+      price: 5999,
+      image:
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop",
+      brand: "Apple",
+      specs: "M1 Chip, 8GB RAM, 256GB SSD",
+    },
+    {
+      id: 5,
+      name: "Desktop PC i5 - Monthly",
+      price: 3499,
+      image:
+        "https://images.unsplash.com/photo-1593640495253-23196b27a87f?w=500&h=500&fit=crop",
+      brand: "Custom Build",
+      specs: "i5 10th Gen, 8GB RAM, 512GB SSD",
+    },
+    {
+      id: 6,
+      name: "Desktop PC i7 - Monthly",
+      price: 4999,
+      image:
+        "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=500&h=500&fit=crop",
+      brand: "Custom Build",
+      specs: "i7 11th Gen, 16GB RAM, 1TB SSD",
+    },
+    {
+      id: 7,
+      name: "ASUS TUF Gaming - Monthly",
+      price: 6999,
+      image:
+        "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=500&h=500&fit=crop",
+      brand: "ASUS",
+      specs: "RTX 3050, i5, 16GB RAM, 512GB",
+    },
+    {
+      id: 8,
+      name: "Dell Precision Workstation - Monthly",
+      price: 7499,
+      image:
+        "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=500&h=500&fit=crop",
+      brand: "Dell",
+      specs: "Xeon, 32GB RAM, 1TB SSD",
+    },
+    {
+      id: 9,
+      name: "iMac 24\" - Monthly",
+      price: 8999,
+      image:
+        "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=500&fit=crop",
+      brand: "Apple",
+      specs: "M1 Chip, 8GB RAM, 256GB SSD",
+    },
+    {
+      id: 10,
+      name: "Bulk Laptop Rental (10+ Units)",
+      price: 2999,
+      image:
+        "https://images.unsplash.com/photo-1504707748692-419802cf939d?w=500&h=500&fit=crop",
+      brand: "Various",
+      specs: "Price per unit/month, Flexible terms",
+    },
+  ],
+  printerRental: [
+    {
+      id: 1,
+      name: "HP LaserJet Pro M404n - Monthly",
+      price: 1499,
+      image:
+        "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=500&h=500&fit=crop",
+      brand: "HP",
+      specs: "38 ppm, Network, Auto-duplex",
+    },
+    {
+      id: 2,
+      name: "Canon imageCLASS - Monthly",
+      price: 1699,
+      image:
+        "https://images.unsplash.com/photo-1600455352333-d5d99c7b6b1e?w=500&h=500&fit=crop",
+      brand: "Canon",
+      specs: "Color Laser, 27 ppm, WiFi",
+    },
+    {
+      id: 3,
+      name: "Epson EcoTank L3250 - Monthly",
+      price: 999,
+      image:
+        "https://images.unsplash.com/photo-1590698933947-a202b069a861?w=500&h=500&fit=crop",
+      brand: "Epson",
+      specs: "All-in-One, Print/Scan/Copy",
+    },
+    {
+      id: 4,
+      name: "Brother MFC-L2750DW - Monthly",
+      price: 1299,
+      image:
+        "https://images.unsplash.com/photo-1585418277-befa06c2b64f?w=500&h=500&fit=crop",
+      brand: "Brother",
+      specs: "Mono Laser, ADF, WiFi",
+    },
+    {
+      id: 5,
+      name: "Xerox WorkCentre - Monthly",
+      price: 2499,
+      image:
+        "https://images.unsplash.com/photo-1588515724527-074a7a56616c?w=500&h=500&fit=crop",
+      brand: "Xerox",
+      specs: "Color, 35 ppm, Network",
+    },
+    {
+      id: 6,
+      name: "Ricoh Multifunction - Monthly",
+      price: 2799,
+      image:
+        "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=500&h=500&fit=crop",
+      brand: "Ricoh",
+      specs: "A3 Color, 45 ppm, Stapler",
+    },
+    {
+      id: 7,
+      name: "HP OfficeJet Pro - Monthly",
+      price: 899,
+      image:
+        "https://images.unsplash.com/photo-1580716196697-2ba42aa1e6a8?w=500&h=500&fit=crop",
+      brand: "HP",
+      specs: "Inkjet, Color, WiFi Direct",
+    },
+    {
+      id: 8,
+      name: "Canon PIXMA G6020 - Monthly",
+      price: 799,
+      image:
+        "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?w=500&h=500&fit=crop",
+      brand: "Canon",
+      specs: "MegaTank, All-in-One, Wireless",
+    },
+    {
+      id: 9,
+      name: "Konica Minolta C308 - Monthly",
+      price: 3999,
+      image:
+        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=500&h=500&fit=crop",
+      brand: "Konica Minolta",
+      specs: "High-volume, 31 ppm, A3",
+    },
+    {
+      id: 10,
+      name: "Industrial Printer Fleet (5+ Units)",
+      price: 5999,
+      image:
+        "https://images.unsplash.com/photo-1580731991090-8e2d9e8e6ca3?w=500&h=500&fit=crop",
+      brand: "Various",
+      specs: "Managed service, Bulk pricing",
+    },
+  ],
+  digitalMarketing: [
+    {
+      id: 1,
+      name: "SEO Optimization Package",
+      price: 15000,
+      image:
+        "https://images.unsplash.com/photo-1557838923-2985c318be48?w=500&h=500&fit=crop",
+      brand: "Monthly Service",
+      specs: "Keyword Research, On-page, Backlinks",
+    },
+    {
+      id: 2,
+      name: "Social Media Management",
+      price: 12000,
+      image:
+        "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=500&h=500&fit=crop",
+      brand: "Monthly Service",
+      specs: "FB, Instagram, LinkedIn, Twitter",
+    },
+    {
+      id: 3,
+      name: "Google Ads Campaign",
+      price: 20000,
+      image:
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=500&fit=crop",
+      brand: "Monthly + Ad Spend",
+      specs: "PPC, Display Ads, Remarketing",
+    },
+    {
+      id: 4,
+      name: "Content Marketing Package",
+      price: 18000,
+      image:
+        "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=500&h=500&fit=crop",
+      brand: "Monthly Service",
+      specs: "Blog Posts, Articles, Copywriting",
+    },
+    {
+      id: 5,
+      name: "Email Marketing Campaign",
+      price: 8000,
+      image:
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500&h=500&fit=crop",
+      brand: "Monthly Service",
+      specs: "Newsletter, Automation, Analytics",
+    },
+    {
+      id: 6,
+      name: "Video Marketing Package",
+      price: 25000,
+      image:
+        "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=500&h=500&fit=crop",
+      brand: "Per Project",
+      specs: "Video Production, YouTube SEO",
+    },
+    {
+      id: 7,
+      name: "Influencer Marketing",
+      price: 30000,
+      image:
+        "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=500&h=500&fit=crop",
+      brand: "Per Campaign",
+      specs: "Influencer Outreach, Campaign Mgmt",
+    },
+    {
+      id: 8,
+      name: "Brand Strategy Consulting",
+      price: 50000,
+      image:
+        "https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=500&fit=crop",
+      brand: "One-time + Monthly",
+      specs: "Brand Identity, Positioning, Guidelines",
+    },
+    {
+      id: 9,
+      name: "Performance Analytics",
+      price: 10000,
+      image:
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=500&fit=crop",
+      brand: "Monthly Service",
+      specs: "GA4, Reports, Dashboards, Insights",
+    },
+    {
+      id: 10,
+      name: "Complete Digital Package",
+      price: 75000,
+      image:
+        "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500&h=500&fit=crop",
+      brand: "Monthly Service",
+      specs: "All-inclusive Marketing Solution",
+    },
+  ],
+  websiteDevelopment: [
+    {
+      id: 1,
+      name: "Landing Page Design",
+      price: 15000,
+      image:
+        "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=500&fit=crop",
+      brand: "One-time",
+      specs: "Responsive, Modern, 1-3 Days",
+    },
+    {
+      id: 2,
+      name: "Business Website (5-10 Pages)",
+      price: 35000,
+      image:
+        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=500&fit=crop",
+      brand: "One-time",
+      specs: "CMS, Mobile-friendly, SEO Ready",
+    },
+    {
+      id: 3,
+      name: "E-commerce Store",
+      price: 65000,
+      image:
+        "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=500&h=500&fit=crop",
+      brand: "One-time",
+      specs: "Payment Gateway, Cart, Admin Panel",
+    },
+    {
+      id: 4,
+      name: "Custom Web Application",
+      price: 150000,
+      image:
+        "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&h=500&fit=crop",
+      brand: "Project-based",
+      specs: "React/Angular, API, Database",
+    },
+    {
+      id: 5,
+      name: "WordPress Website",
+      price: 25000,
+      image:
+        "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&h=500&fit=crop",
+      brand: "One-time",
+      specs: "Theme Customization, Plugins, Blog",
+    },
+    {
+      id: 6,
+      name: "Portfolio Website",
+      price: 20000,
+      image:
+        "https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?w=500&h=500&fit=crop",
+      brand: "One-time",
+      specs: "Gallery, Contact Form, Modern UI",
+    },
+    {
+      id: 7,
+      name: "Website Redesign",
+      price: 40000,
+      image:
+        "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=500&h=500&fit=crop",
+      brand: "One-time",
+      specs: "Modern Look, Speed Optimization",
+    },
+    {
+      id: 8,
+      name: "Mobile App Development",
+      price: 200000,
+      image:
+        "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=500&h=500&fit=crop",
+      brand: "Project-based",
+      specs: "iOS & Android, Native/Hybrid",
+    },
+    {
+      id: 9,
+      name: "Website Maintenance",
+      price: 5000,
+      image:
+        "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500&h=500&fit=crop",
+      brand: "Monthly Service",
+      specs: "Updates, Backups, Security, Support",
+    },
+    {
+      id: 10,
+      name: "Enterprise Solution",
+      price: 500000,
+      image:
+        "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&h=500&fit=crop",
+      brand: "Project-based",
+      specs: "Custom CRM/ERP, Scalable, Cloud",
+    },
+  ],
 };
 
 // Product Card Component
@@ -665,6 +1037,10 @@ const ProductListModal = ({ category, products, onClose }) => {
     repairs: "Repair Services",
     mobileAccessories: "Mobile Accessories",
     laptopAccessories: "Laptop Accessories",
+    laptopRental: "Laptop & Computer Rental",
+    printerRental: "Printer Rental",
+    digitalMarketing: "Digital Marketing Services",
+    websiteDevelopment: "Website Development",
   };
 
   const [cartItems, setCartItems] = useState([]);
@@ -780,8 +1156,8 @@ const SolutionsHero = () => {
           Complete IT Solutions & Services
         </h1>
         <p className="text-lg md:text-xl text-blue-100 max-w-3xl mx-auto mb-8">
-          Premium IT Hardware, Accessories & Expert Repair Services Under One
-          Roof
+          Premium IT Hardware, Rentals, Repair Services & Digital Solutions
+          Under One Roof
         </p>
         <div className="flex flex-wrap justify-center gap-3 text-sm">
           <div className="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full">
@@ -791,7 +1167,10 @@ const SolutionsHero = () => {
             ✓ Expert Technicians
           </div>
           <div className="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full">
-            ✓ Warranty Support
+            ✓ Flexible Rentals
+          </div>
+          <div className="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full">
+            ✓ Digital Marketing
           </div>
         </div>
       </div>
@@ -914,6 +1293,97 @@ const ITHardwareProducts = ({ onSelectCategory }) => {
   );
 };
 
+// Rental Services Component
+const RentalServices = ({ onSelectCategory }) => {
+  const rentals = [
+    {
+      icon: Laptop,
+      title: "Laptop & Computer on Rent",
+      image:
+        "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=600&h=400&fit=crop",
+      items: [
+        "Business Laptops",
+        "Gaming Laptops",
+        "Desktop Computers",
+        "Workstations",
+        "Bulk Orders Available",
+        "Flexible Duration",
+      ],
+      categoryKey: "laptopRental",
+    },
+    {
+      icon: Printer,
+      title: "Printer on Rent",
+      image:
+        "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=600&h=400&fit=crop",
+      items: [
+        "Laser Printers",
+        "Color Printers",
+        "All-in-One",
+        "High-Volume Printers",
+        "Maintenance Included",
+        "Short & Long Term",
+      ],
+      categoryKey: "printerRental",
+    },
+  ];
+
+  return (
+    <section id="rental-services" className="py-16 px-4 bg-gray-50">
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-12">
+          <div className="inline-flex items-center justify-center w-14 h-14 bg-green-100 rounded-full mb-3">
+            <Calendar className="w-7 h-7 text-green-600" />
+          </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
+            Rental Services
+          </h2>
+          <p className="text-lg text-gray-600">
+            Flexible rental options for businesses and individuals
+          </p>
+        </div>
+        <div className="grid md:grid-cols-2 gap-6">
+          {rentals.map((category, index) => (
+            <button
+              key={index}
+              onClick={() => onSelectCategory(category.categoryKey)}
+              className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 text-left cursor-pointer group"
+            >
+              <div className="relative h-48 overflow-hidden">
+                <img
+                  src={category.image || "/placeholder.svg"}
+                  alt={category.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                <div className="absolute bottom-4 left-4 flex items-center">
+                  <category.icon className="w-8 h-8 text-white mr-3" />
+                  <h3 className="text-2xl font-bold text-white">
+                    {category.title}
+                  </h3>
+                </div>
+              </div>
+              <div className="p-6">
+                <ul className="space-y-2">
+                  {category.items.map((item, idx) => (
+                    <li
+                      key={idx}
+                      className="flex items-start text-sm text-gray-700"
+                    >
+                      <span className="text-green-500 mr-2 mt-0.5">✓</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </button>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
 // Accessories & Connectivity Component
 const AccessoriesConnectivity = ({ onSelectCategory }) => {
   const accessories = [
@@ -950,7 +1420,7 @@ const AccessoriesConnectivity = ({ onSelectCategory }) => {
   ];
 
   return (
-    <section id="accessories-connectivity" className="py-16 px-4 bg-gray-50">
+    <section id="accessories-connectivity" className="py-16 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
@@ -995,6 +1465,113 @@ const AccessoriesConnectivity = ({ onSelectCategory }) => {
                 </ul>
               </div>
             </button>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+// Digital Services Component
+const DigitalServices = ({ onSelectCategory }) => {
+  const services = [
+    {
+      icon: TrendingUp,
+      title: "Digital Marketing",
+      description:
+        "Comprehensive digital marketing services to grow your online presence and reach your target audience.",
+      image:
+        "https://images.unsplash.com/photo-1557838923-2985c318be48?w=800",
+      services: [
+        "SEO Optimization",
+        "Social Media Management",
+        "Google Ads Campaigns",
+        "Content Marketing",
+        "Email Marketing",
+        "Brand Strategy",
+      ],
+      categoryKey: "digitalMarketing",
+    },
+    {
+      icon: Globe,
+      title: "Website Development",
+      description:
+        "Professional website development services for businesses of all sizes. Modern, responsive, and SEO-friendly.",
+      image:
+        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800",
+      services: [
+        "Landing Pages",
+        "Business Websites",
+        "E-commerce Stores",
+        "Custom Web Apps",
+        "WordPress Sites",
+        "Website Maintenance",
+      ],
+      categoryKey: "websiteDevelopment",
+    },
+  ];
+
+  return (
+    <section id="digital-services" className="py-16 px-4 bg-gray-50">
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-12">
+          <div className="inline-flex items-center justify-center w-14 h-14 bg-purple-100 rounded-full mb-3">
+            <Globe className="w-7 h-7 text-purple-600" />
+          </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
+            Digital Services
+          </h2>
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            Professional digital marketing and web development services to grow
+            your business online
+          </p>
+        </div>
+        <div className="grid md:grid-cols-2 gap-8">
+          {services.map((service, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300"
+            >
+              <div
+                className="relative h-56 overflow-hidden cursor-pointer group"
+                onClick={() => onSelectCategory(service.categoryKey)}
+              >
+                <img
+                  src={service.image || "/placeholder.svg"}
+                  alt={service.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+                <div className="absolute bottom-6 left-6 text-white">
+                  <service.icon className="w-12 h-12 mb-2" />
+                  <h3 className="text-3xl font-bold mb-1">{service.title}</h3>
+                  <p className="text-blue-200 text-sm">{service.description}</p>
+                </div>
+              </div>
+
+              <div className="p-6">
+                <h4 className="text-base font-semibold text-gray-900 mb-4 flex items-center">
+                  <Settings className="w-5 h-5 mr-2 text-purple-600" />
+                  Services Offered:
+                </h4>
+                <div className="grid grid-cols-2 gap-3">
+                  {service.services.map((item, idx) => (
+                    <div key={idx} className="flex items-start">
+                      <span className="inline-block w-1.5 h-1.5 bg-purple-500 rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
+                      <span className="text-gray-700 text-sm">{item}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div className="bg-gray-50 px-6 py-4 border-t border-gray-100">
+                <button
+                  onClick={() => onSelectCategory(service.categoryKey)}
+                  className="w-full bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 rounded-lg transition-colors duration-200"
+                >
+                  View Services & Pricing
+                </button>
+              </div>
+            </div>
           ))}
         </div>
       </div>
@@ -1110,7 +1687,7 @@ const RepairServices = ({ onSelectCategory }) => {
         {/* Why Choose Us Section */}
         <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl p-8 md:p-12 text-white">
           <h3 className="text-2xl md:text-3xl font-bold mb-8 text-center">
-            Why Choose Our Repair Services?
+            Why Choose Our Services?
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <div className="text-center">
@@ -1149,7 +1726,9 @@ export default function SolutionsPage() {
       <Header />
       <SolutionsHero />
       <ITHardwareProducts onSelectCategory={setSelectedCategory} />
+      <RentalServices onSelectCategory={setSelectedCategory} />
       <AccessoriesConnectivity onSelectCategory={setSelectedCategory} />
+      <DigitalServices onSelectCategory={setSelectedCategory} />
       <RepairServices onSelectCategory={setSelectedCategory} />
       <Footer />
       {selectedCategory && (
