@@ -12,7 +12,7 @@ export default function VisionMissionValues() {
                 <span className="text-4xl">👁️</span>
               </div>
               <p className="text-gray-700 leading-relaxed">
-                Savekey Technology wants to become the global leader in providing the best recruitment solutions, services and training in the world with excellence
+                enstoppesolutions wants to become the global leader in providing the best recruitment solutions, services and training in the world with excellence
               </p>
             </div>
 
@@ -23,7 +23,7 @@ export default function VisionMissionValues() {
                 <span className="text-4xl">🎯</span>
               </div>
               <p className="text-gray-700 leading-relaxed">
-                Savekey Technology wants to become the global leader in providing the best recruitment solutions, services and training in the world with excellence
+                enstoppesolutions wants to become the global leader in providing the best recruitment solutions, services and training in the world with excellence
               </p>
             </div>
 
