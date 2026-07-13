@@ -33,7 +33,7 @@ export default function VisionMissionValues() {
                 <h3 className="text-2xl font-bold">Our <span className="text-brand-primary">values</span></h3>
                 <span className="text-4xl">⚙️</span>
               </div>
-              <p className="text-gray-700 mb-4">We "Savekey Technology"</p>
+              <p className="text-gray-700 mb-4">We "enstoppesolutions"</p>
               <p className="text-gray-700 leading-relaxed">
                 <strong>A</strong> : Ambitious : Our leadership team strives to build a company
               </p>
