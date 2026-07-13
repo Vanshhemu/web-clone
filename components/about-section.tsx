@@ -25,7 +25,7 @@ export default function AboutSection() {
             {/* Main intro card */}
             <div className="bg-white rounded-2xl shadow-xl p-8 border border-slate-100 hover:shadow-2xl transition-shadow duration-300">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Savekey Technology is an <span className="font-semibold text-blue-600">ISO 9001:2015, ISO 27001:2022</span> and <span className="font-semibold text-blue-600">ISO 20000-1:2018</span> systems integrator committed to delivering the best IT solutions driven by the latest technology and best suited business-driven solutions to small, medium and global companies.
+                Enstoppesolutions is an <span className="font-semibold text-blue-600">ISO 9001:2015, ISO 27001:2022</span> and <span className="font-semibold text-blue-600">ISO 20000-1:2018</span> systems integrator committed to delivering the best IT solutions driven by the latest technology and best suited business-driven solutions to small, medium and global companies.
               </p>
             </div>
 
