@@ -11,7 +11,7 @@ export default function WhoWeAre() {
 
         <div className="space-y-6 text-gray-700 leading-relaxed">
           <p>
-            Savekey Technology is an ISO 9001:2015, ISO 27001:2022 and ISO 20000-1:2018 systems integrator committed to delivering the best IT solutions driven by the latest technology and best suited business-driven solutions to small, medium and global companies who are looking for an IT solution, skilled manpower and training.
+           enstoppesolutions is an ISO 9001:2015, ISO 27001:2022 and ISO 20000-1:2018 systems integrator committed to delivering the best IT solutions driven by the latest technology and best suited business-driven solutions to small, medium and global companies who are looking for an IT solution, skilled manpower and training.
           </p>
 
           <div>
